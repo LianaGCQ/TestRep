@@ -2,7 +2,7 @@
 rem START or STOP Services
 rem ----------------------------------
 rem Check if argument is STOP or START
-
+rem ----------------------------------
 if not ""%1"" == ""START"" goto stop
 
 
@@ -24,3 +24,4 @@ echo MySQL could not be started
 
 :finish
 exit
+
